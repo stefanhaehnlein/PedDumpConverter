@@ -1,0 +1,20 @@
+﻿Build started 02.07.2014 10:26:05.
+     1>Project "P:\Project\0143_Pedflow\20_working\Code\PedDumpConverter\PedDumpConverter\PedDumpConverter.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\PedDumpConverter.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /errorReport:prompt /clr:nostdlib dumpFileReader.cpp
+         dumpFileReader.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"x64\Release\app.res" app.rc 
+       Link:
+         E:\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"P:\project\0143_Pedflow\20_working\Code\PedDumpConverter\x64\Release\PedDumpConverter.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"P:\project\0143_Pedflow\20_working\Code\PedDumpConverter\x64\Release\PedDumpConverter.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 x64\Release\app.res
+         x64\Release\AssemblyInfo.obj
+         x64\Release\dumpFileReader.obj
+         x64\Release\stdafx.obj
+         x64\Release\types.obj
+         "x64\Release\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         PedDumpConverter.vcxproj -> P:\project\0143_Pedflow\20_working\Code\PedDumpConverter\x64\Release\PedDumpConverter.exe
+     1>Done Building Project "P:\Project\0143_Pedflow\20_working\Code\PedDumpConverter\PedDumpConverter\PedDumpConverter.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.28
